@@ -8,6 +8,10 @@ public class ceilingProblem {
     static int ceilingProblem(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
+        //if the target element is greater than the last element in the sorted array return -1
+        if(target == arr[end]){
+            return -1;
+        }
         while(start <= end){
             int mid = start + (end - start) / 2;
             if(target < arr[mid]){
