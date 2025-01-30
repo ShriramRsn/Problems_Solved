@@ -14,10 +14,12 @@ public class ceilingProblem {
         }
         while(start <= end){
             int mid = start + (end - start) / 2;
+            //answer should be in left side
             if(target < arr[mid]){
                 end = mid - 1;
             }
             else if(target > arr[mid]){
+                //answer should be in right
                 start = mid + 1;
             }
             else {
