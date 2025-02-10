@@ -1,7 +1,7 @@
 public class NextGreatCharacter {
     public static void main(String[] args) {
         char[] letters = {'a', 'b', 'c', 'd'};
-        char target = 'a';
+        char target = 'b';
         char ans = nextGreatestLetter(letters,target);
         System.out.println(ans);
     }
