@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class basicJava {
     public static void main(String[] args){
 
-        // System.out.println(isLeapYear() + "\n");
-        // System.out.println("Sum: " + sum() + "\n");
-        // System.out.println("Multiply of: \n" + multiply() + "\n");
-        // System.out.println("HCF: " + HCFLCM() + "\n");
-        // System.out.println("Sum: " + sumOfN() + "\n");
-        // System.out.println("Factorial: " + fact() + "\n");
+        System.out.println(isLeapYear() + "\n");
+        System.out.println("Sum: " + sum() + "\n");
+        System.out.println("Multiply of: \n" + multiply() + "\n");
+        System.out.println("HCF: " + HCFLCM() + "\n");
+        System.out.println("Sum: " + sumOfN() + "\n");
+        System.out.println("Factorial: " + fact() + "\n");
         System.out.println("CountDigits:" + countDigits());
         
     }
@@ -99,9 +99,6 @@ public class basicJava {
         int count = 0;
         while(0<a){
             a/=10;
-            if (a == 0) {
-                count++;
-            }
             count++;
         }
         return count;

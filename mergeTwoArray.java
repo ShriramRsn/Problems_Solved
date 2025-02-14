@@ -9,7 +9,7 @@ public class mergeTwoArray {
 
     static int[] input(){
         Scanner sc = new Scanner(System.in);
-        int l1 = 4;
+        int l1 = sc.nextInt();
         int[] arr1 = new int[l1];
         int[] arr2 = new int[l1];
         for(int i = 0; i < l1; i++){
