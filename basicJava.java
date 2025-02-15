@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class basicJava {
     public static void main(String[] args){
 
-        System.out.println(isLeapYear() + "\n");
-        System.out.println("Sum: " + sum() + "\n");
-        System.out.println("Multiply of: \n" + multiply() + "\n");
-        System.out.println("HCF: " + HCFLCM() + "\n");
-        System.out.println("Sum: " + sumOfN() + "\n");
-        System.out.println("Factorial: " + fact() + "\n");
-        System.out.println("CountDigits:" + countDigits());
+        // System.out.println(isLeapYear() + "\n");
+        // System.out.println("Sum: " + sum() + "\n");
+        // System.out.println("Multiply of: \n" + multiply() + "\n");
+        // System.out.println("HCF: " + HCFLCM() + "\n");
+        // System.out.println("Sum: " + sumOfN() + "\n");
+        // System.out.println("Factorial: " + fact() + "\n");
+        // System.out.println("CountDigits:" + countDigits());
+        System.out.println("Alphabets: "+ alphabets());
         
     }
 
@@ -92,7 +93,7 @@ public class basicJava {
         return fact;
     }
 
-    //count
+    //Count
     static int countDigits(){
         Scanner sc =  new Scanner(System.in);
         int a = sc.nextInt();
@@ -103,4 +104,20 @@ public class basicJava {
         }
         return count;
     }
+
+    //Print all alphabets O(N^2) & O(N)
+    static StringBuilder alphabets(){
+        // String Alphabets = " ";
+        // for(int i = 0; i < 26; i++){
+        //     char ch = (char)('a'+ i);
+        //     Alphabets += " " + ch;
+        // }
+        StringBuilder Alphabets = new StringBuilder();
+        for(int i = 0; i < 26; i++){
+            char ch = (char)('a' + i);
+            Alphabets.append(ch).append(" ");
+        }
+        return Alphabets;
+    }
+    
 }
