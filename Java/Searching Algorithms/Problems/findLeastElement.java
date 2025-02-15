@@ -17,6 +17,6 @@ public class findLeastElement {
                 start = mid + 1;
             }
         }
-        return start;
+        return end;
     }
 }
