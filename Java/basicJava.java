@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class basicJava {
     public static void main(String[] args){
 
@@ -10,9 +9,9 @@ public class basicJava {
         // System.out.println("Sum: " + sumOfN() + "\n");
         // System.out.println("Factorial: " + fact() + "\n");
         // System.out.println("CountDigits:" + countDigits());
-        //System.out.println("Alphabets: "+ alphabets());
-        System.out.println("Palindrome: "+ palindrome());
-        
+        // System.out.println("Alphabets: "+ alphabets());
+        // System.out.println("Palindrome: "+ palindrome());
+        System.out.println("Even: "+ isEven());
     }
 
     //Leap Year or Not (LYORNOT)
@@ -138,5 +137,21 @@ public class basicJava {
         }
         return true;
     }
+
+    //even or odd without %
+    static boolean  isEven(){
+        Scanner sc =  new Scanner(System.in);
+        int number = sc.nextInt();
+        Math.abs(number);
+        boolean TorF = true;
+        for(int i = 1; i <= number; i++){
+            TorF = !TorF;
+        }
+        return TorF;
+    }
     
+    //
+    static int zeroCount(){
+        
+    }
 }
