@@ -1,13 +1,38 @@
+
+import java.util.Arrays;
+
 public class matrixBinarySearch {
     public static void main(String[] args) {
         int[][] arr = {
-            {7,15,34,41},
-            {45,49,55,76}
+            {1, 4, 7, 11},
+            {2, 5, 8, 12},
+            {3, 6, 9, 16},
+            {10, 13, 14, 17}
         };
-        int target = 55;
-        boolean ans = searchMatrix(arr, target);
-        System.out.println(ans);
+        int target = 8;
+        int[] ans = search(arr, target);
+        System.out.println(Arrays.toString(ans));
     }
+
+    //simple
+    static int[] search(int[][] matrix,int target){
+        int row = 0;
+        int col = matrix.length - 1;
+        while(row < matrix.length && col >=0){
+            if(matrix[row][col] == target){
+                return new int[]{row,col};
+            }
+            else if (matrix[row][col] < target){
+                row++;
+            }
+            else{
+                col--;
+            }
+        }
+        return new int[]{-1, -1};
+    }
+
+    //little complex
     static boolean searchMatrix(int[][] matrix, int target) {
         int row = matrix.length;
         int col = matrix[0].length;

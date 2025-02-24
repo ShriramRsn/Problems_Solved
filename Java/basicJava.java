@@ -11,7 +11,9 @@ public class basicJava {
         // System.out.println("CountDigits:" + countDigits());
         // System.out.println("Alphabets: "+ alphabets());
         // System.out.println("Palindrome: "+ palindrome());
-        System.out.println("Even: "+ isEven());
+        // System.out.println("Even: "+ isEven());
+        System.out.println("Odd: "+ isOdd());
+        // System.out.println("Zero Count: "+ zeroCount());
     }
 
     //Leap Year or Not (LYORNOT)
@@ -149,9 +151,26 @@ public class basicJava {
         }
         return TorF;
     }
+
+    //Even or Odd using bitwise
+    static boolean isOdd(){
+        Scanner sc =  new Scanner(System.in);
+        int number = sc.nextInt();
+        Math.abs(number);
+        return (number & 1) == 1;
+    }
     
-    //
+    // number of Zero's
     static int zeroCount(){
-        
+    Scanner sc = new Scanner(System.in);
+    String numberStr = sc.next();
+
+    int count = 0;
+    for (int i = 0; i < numberStr.length(); i++) {
+        if (numberStr.charAt(i) == '0') {
+            count++;
+        }
+    }
+    return count;
     }
 }
