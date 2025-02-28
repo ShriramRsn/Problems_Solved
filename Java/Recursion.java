@@ -4,8 +4,10 @@ public class Recursion {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.println("Factorial: " + fact(n));
-        System.out.println("Fibonacci: " + fibonacci(n));
+        // System.out.println("Factorial: " + fact(n));
+        // System.out.println("Fibonacci: " + fibonacci(n));
+        // Nnumber(n);
+        // System.out.println(sumOfDigit(n));
     }
 
     //factorial
@@ -25,4 +27,20 @@ public class Recursion {
         }
         return fibonacci(n-1) + fibonacci(n - 2);
     }
+
+    static void Nnumber(int n){
+        if(n == 0){
+            return;
+        }
+        Nnumber(n-1);
+        System.out.println(n);
+    }
+    //1:19 full charge on laptop 15-100
+    static int sumOfDigit(int n){
+        if(n == 0){
+            return 0;
+        }
+        return sumOfDigit(n / 10) + (n % 10);
+    }
+    
 }
