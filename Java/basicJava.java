@@ -12,7 +12,9 @@ public class basicJava {
         // System.out.println("Alphabets: "+ alphabets());
         // System.out.println("Palindrome: "+ palindrome());
         // System.out.println("Even: "+ isEven());
-        System.out.println("Odd: "+ isOdd());
+        // System.out.println("Odd: "+ isOdd());
+        // System.out.println("Unique Value: " + unique());
+        System.out.println("Mask Bitwise: " + bitWise());
         // System.out.println("Zero Count: "+ zeroCount());
     }
 
@@ -159,6 +161,21 @@ public class basicJava {
         Math.abs(number);
         return (number & 1) == 1;
     }
+
+    static int unique(){
+        int[] arr = {2, 3, 4, 3, 2, 4, 1};
+        int unique = 0;
+        for(int i : arr){
+            unique ^= i;
+        }
+        return unique;
+    }
+
+    static int bitWise(){
+        Scanner sc =  new Scanner(System.in);
+        int n = sc.nextInt();
+        return n | (1 << (n-1));
+    }
     
     // number of Zero's
     static int zeroCount(){
@@ -174,3 +191,6 @@ public class basicJava {
     return count;
     }
 }
+/* Formula for calculating size of the datatype:
+        -2^n-1 to (2^n-1 - 1)
+ */
