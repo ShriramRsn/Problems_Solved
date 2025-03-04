@@ -1,13 +1,26 @@
-def isLeapYear(year):
-    return year % 4 == 0 and not(year % 100 == 0) or year % 400 == 0
+def isLeapYear():
+    year = int(input("Enter Year: "))
+    if(year % 4 == 0 and year % 100 != 0 or year % 400 == 0):
+        return print("It's a Leap Year.")
+    return print("It's not a Leap Year")
+
+def isEven():
+    num = int(input("Enter Integer: "))
+    if(num % 2 == 0):
+        return print("It's Even")
+    return print("It's Odd")
+
+def isOdd():
+    num = int(input("Enter Integer: "))
+    abs(num)
+    if(num & 1 == 1):
+        return print("It's Odd")
+    return print("It's Even")
 
 def main():
-    year = int(input("Enter Year: "))
-    if isLeapYear(year):
-        print(f"{year} is a Leap Year.")
-    else:
-        print(f"{year} is a not Leap Year.")
-    
+    # isLeapYear()
+    # isEven()
+    isOdd()
     
 if __name__ == "__main__":
     main()
