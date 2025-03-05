@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Recursion {
+    
+    static int sum = 0;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -8,6 +10,8 @@ public class Recursion {
         // System.out.println("Fibonacci: " + fibonacci(n));
         // Nnumber(n);
         // System.out.println(sumOfDigit(n));
+        revDigit(n);
+        System.out.println(sum);
     }
 
     //factorial
@@ -32,6 +36,7 @@ public class Recursion {
         if(n == 0){
             return;
         }
+        System.out.println(n);
         Nnumber(n-1);
         System.out.println(n);
     }
@@ -41,6 +46,15 @@ public class Recursion {
             return 0;
         }
         return sumOfDigit(n / 10) + (n % 10);
+    }
+
+    static void revDigit(int n){
+        if(n == 0){
+            return ;
+        }
+        int rem = n % 10;
+        sum = sum * 10 + rem;
+        revDigit(n/10);
     }
     
 }
