@@ -1,3 +1,12 @@
+sum = 0
+def revDigit(n):
+    global sum
+    if(n == 0):
+        return 
+    rem = n % 10
+    sum = sum * 10 + rem
+    revDigit(n//10)
+
 def Rev_Order(n):
     if(n == 0):
         return 
@@ -13,8 +22,12 @@ def fact(n):
 
 def main():
     # Rev_Order(5)
-    ans = fact(5)
-    print(ans)
+    # ans = fact(5)
+    # print(ans)
+    
+    #Reverse Digit
+    revDigit(1234)
+    print(sum)
     
 if __name__ == "__main__":
     main()
