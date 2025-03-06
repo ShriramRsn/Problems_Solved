@@ -14,6 +14,7 @@ public class MissingNumber {
                 i++;
             }
         }
+        // searching for missingNumber
         for (int j = 0; j < arr.length; j++) {
             if(arr[j] != j){
                 return j;
