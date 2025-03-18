@@ -17,10 +17,19 @@ def isOdd():
         return print("It's Odd")
     return print("It's Even")
 
+def palindrome():
+    word = "mam"
+    for i  in range(0,len(word)):
+        revWord = "" + word[::-1]
+    if(word == revWord):
+        return True
+    return False
+
 def main():
     # isLeapYear()
     # isEven()
-    isOdd()
+    # isOdd()
+    print(palindrome())
     
 if __name__ == "__main__":
     main()
