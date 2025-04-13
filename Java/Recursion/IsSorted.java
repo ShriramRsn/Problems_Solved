@@ -2,21 +2,15 @@ package Recursion;
 
 public class IsSorted {
     public static void main(String[] args) {
-        int[] arr = new int[]{1,2,4,3,5};
-        if(isSorted(arr)){
-            System.out.println("Sorted Array");
-        }else{
-            System.out.println("Not Sorted");
-        }
+        int[] arr = new int[]{1,2,3,4,5};
+        System.out.println(isSorted(arr, 0));
         
     }
 
-    static boolean isSorted(int[] arr){
-        for(int i = arr[2]; i < arr.length; i++){
-            if(arr[i] < arr[i+1] && arr.length != 5){
-                return true;
-            }
+    static boolean isSorted(int[] arr, int index){
+        if(index == arr.length - 1){
+            return true;
         }
-        return false;
+        return arr[index] < arr[index + 1] && isSorted(arr, index + 1);
     }
 }
