@@ -1,6 +1,7 @@
+package Recursion;
 import java.util.Scanner;
 
-public class Recursion {
+public class smallQA {
     
     static int sum = 0;
     public static void main(String[] args) {
