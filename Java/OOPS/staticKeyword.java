@@ -13,7 +13,10 @@ public class staticKeyword {
         myThoughtsOnDays devilDay = new myThoughtsOnDays(8, "Monday");
         myThoughtsOnDays satanDay = new myThoughtsOnDays(8, "Tuesday");
         System.out.println(myThoughtsOnDays.count);
-        System.out.println();
+        Test a = new Test("Shriram");
+        Test b = new Test("Rahul");
+        System.out.println(a.name);
+        System.out.println(b.name);
 
         staticKeyword greet = new staticKeyword();
         greet.fun();
@@ -32,6 +35,13 @@ public class staticKeyword {
     void greeting(){
         System.out.println("This is Greeting() Statement");
     }
+
+    static class Test{
+        String name;
+            public Test(String name) {
+                this.name = name;
+            }
+    }
 }
 
 class myThoughtsOnDays{
@@ -44,7 +54,4 @@ class myThoughtsOnDays{
         this.day = day;
         myThoughtsOnDays.count += 1;
     }
-
-
-
 }
