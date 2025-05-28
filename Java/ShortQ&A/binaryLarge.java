@@ -1,26 +1,21 @@
 public class binaryLarge {
     public static void main(String[] args) {
         int arr[] = new int[]{2,1,7,6,5,4,3};
-        System.out.println(largeElement(arr));
+        System.out.println(arr[largeElement(arr)]);
     }
+
     static int largeElement(int[] arr){
         int start = 0;
         int end = arr.length - 1;
-        while(start<=end){
+
+        while(start < end){ 
             int mid = start + (end - start) / 2;
-            if(mid < end && arr[mid] > arr[mid+1]){
-                return mid;
-            }
-            if(mid > start && arr[mid] < arr[mid-1]){
-                return mid - 1;
-            }
-            if(arr[mid] <= arr[start]){
-                end = mid - 1;
-            }
-            else{
+            if(arr[mid] < arr[mid+1]){
                 start = mid + 1;
+            } else {
+                end = mid; 
             }
         }
-        return -1;
+        return start;
     }
 }

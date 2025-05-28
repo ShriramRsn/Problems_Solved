@@ -43,7 +43,7 @@ public class basicJava {
         StringBuilder string = new StringBuilder();
         int num = input.nextInt();
         for(int i=1; i <= 10; i++){
-            string.append(num).append(" x ").append(i).append(" = ").append(num * i).append("\n");
+            string.append(i).append("x").append(num).append("=").append(i*num).append("\n");
         }
         return string.toString();
     }
@@ -67,20 +67,21 @@ public class basicJava {
     //Sum of n 
     static int sumOfN(){
         Scanner input =  new Scanner(System.in);
-        StringBuilder string = new StringBuilder();
         int num ;
         int total = 0;
         while(true){
-            if (input.hasNextInt()) {
+            if(input.hasNextInt()){
                 num = input.nextInt();
                 total += num;
             }
-            else if(input.next().equals("x")){
+            else if (input.next().equals('x')){
+                System.out.println("Termintated");
+                System.out.print("Total: " + total);
                 break;
             }
             else{
-                System.out.println("You provided invalid symbol");
-                continue;
+                System.out.println("Wrong Input");
+                System.out.print("Total: " + total);
             }
         }
         return total;
@@ -181,7 +182,6 @@ public class basicJava {
     static int zeroCount(){
     Scanner sc = new Scanner(System.in);
     String numberStr = sc.next();
-
     int count = 0;
     for (int i = 0; i < numberStr.length(); i++) {
         if (numberStr.charAt(i) == '0') {
