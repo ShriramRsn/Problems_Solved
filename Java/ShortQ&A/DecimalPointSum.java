@@ -11,11 +11,9 @@ public class DecimalPointSum {
             }
         }
 
-        String decimalPart = ""; 
         int decimalPartInt = 0;
 
         for (int i = dotIndex + 1; i < str.length(); i++) {
-            decimalPart += str.charAt(i);
             int digit = str.charAt(i) - '0';
             decimalPartInt = decimalPartInt * 10 + digit;
         }

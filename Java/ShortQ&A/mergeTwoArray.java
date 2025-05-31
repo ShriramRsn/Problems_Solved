@@ -4,7 +4,11 @@ public class mergeTwoArray {
     public static void main(String[] args) {
         int[] merged = input();
         System.out.println(Arrays.toString(merged));
-
+        int unique = 0;
+        for(int i : merged){
+            unique ^= i;
+        }
+        System.out.println(unique);
     }
 
     static int[] input(){
