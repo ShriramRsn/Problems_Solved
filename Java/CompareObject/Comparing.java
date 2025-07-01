@@ -1,4 +1,4 @@
-package OOPS;
+package CompareObject;
 
 import java.util.Arrays;
 
