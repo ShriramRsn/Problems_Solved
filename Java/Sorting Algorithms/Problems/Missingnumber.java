@@ -1,4 +1,4 @@
-public class MissingNumber {
+public class Missingnumber {
     public static void main(String[] args) {
         int[] arr = new int[]{3,0,1};
         int ans = missingNumber(arr);

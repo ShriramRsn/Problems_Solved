@@ -1,4 +1,3 @@
-import java.util.*;
 public class AddSumSeries{
     public static void main(String[] args){
         int n = 6;
@@ -10,7 +9,7 @@ public class AddSumSeries{
         int sum = input1;
         boolean isPlus;
         if(input2 == 2){
-            isPlus = True;
+            isPlus = true;
         }
         else{
             isPlus = false;
