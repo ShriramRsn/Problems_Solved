@@ -12,3 +12,7 @@ public class Main {
     
   }
 }
+
+/*  Inheritance:
+ *      It allows one class to inherit properties and methods from another class.
+*/

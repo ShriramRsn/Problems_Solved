@@ -27,3 +27,7 @@ public class EnumsProgram {
 interface enums{
     public void hello();
 }
+
+/*   It is a special data type that represents a fixed set of named constants
+     The enum constants are implicitly static and final
+*/

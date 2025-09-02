@@ -25,3 +25,14 @@ public class ExceptionHandling {
         return a/b;
     }
 }
+
+/*  Try Block:
+ *      Code that potentially throw an exception
+ *  Catch Block:
+ *      Each catch block specifies the type of exception it can handle
+ *  throw:
+ *      This Keyword is used to explicitly throw an exception
+ *  throws:
+ *      This keyword is used in a method signature to declare that 
+ *      the method might throw one or more specified types of exceptions.
+ */

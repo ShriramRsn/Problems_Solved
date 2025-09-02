@@ -1,6 +1,6 @@
 package OOPS.Interface;
 
-public class Bus implements Drive,{
+public class Bus implements Drive{
 
     @Override
     public void start() {

@@ -10,3 +10,8 @@ public class Main {
         car.stop();
     }
 }
+
+/*  Interface:
+ *      An interface in Java is a blueprint of a behaviour. 
+ *      A Java interface contains static constants and abstract methods.
+ */
