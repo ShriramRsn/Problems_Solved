@@ -11,7 +11,9 @@ public class CustomLinkedList{
         list.addFirst(67);
         list.deleteFirst();
         list.deleteLast();
+        list.delete(1);
         list.display();
+        System.out.println("\n" + list.getSize());
     }
 }
 
@@ -24,14 +26,18 @@ class SinglyList{
     public SinglyList(){
         this.size = 0;
     }
+
+    public int getSize(){
+        return size;
+    }
     
-    public void addFirst(int value){
+    public void addFirst(int value) {
         Node node = new Node(value);
-        if(head == null){
-            tail = node;
-        }
         node.next = head;
         head = node;
+        if(tail == null) {
+            tail = node;
+        }
         size++;
     }
     
@@ -74,6 +80,21 @@ class SinglyList{
         int value = tail.value;
         tail = secondLast;
         tail.next = null;
+        size--;
+        return value;
+    }
+
+    public int delete(int index){
+        if(index == 0){
+            return deleteFirst();
+        }
+        if(index == size - 1){
+            return deleteLast();
+        }
+        Node prev = get(index - 1);
+        int value = prev.next.value;
+        prev.next = prev.next.next;
+        size--;
         return value;
     }
     
