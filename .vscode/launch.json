@@ -1,0 +1,517 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "formatter",
+            "request": "launch",
+            "mainClass": "formatter",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Fromatter",
+            "request": "launch",
+            "mainClass": "Fromatter",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "MinimumCostOfConversion",
+            "request": "launch",
+            "mainClass": "MinimumCostOfConversion",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "BalancePoint",
+            "request": "launch",
+            "mainClass": "Questions_asked_by_Companies.BalancePoint",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "IntegerToRoman",
+            "request": "launch",
+            "mainClass": "IntegerToRoman",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "WordSearch",
+            "request": "launch",
+            "mainClass": "WordSearch",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "AddNumbers",
+            "request": "launch",
+            "mainClass": "AddNumbers",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "KthMissingPositiveNumber",
+            "request": "launch",
+            "mainClass": "KthMissingPositiveNumber",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "CustomDoubleLinkedList",
+            "request": "launch",
+            "mainClass": "DSA_Concepts.CustomDoubleLinkedList.CustomDoubleLinkedList",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "CustomLinkedList",
+            "request": "launch",
+            "mainClass": "DSA_Concepts.CustomLinkedList.CustomLinkedList",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "DSA_Concepts.CustomLinkedList.LinkedList",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "DSA_Concepts.CustomLinkedList.Main",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "SumofNoZeroDigit",
+            "request": "launch",
+            "mainClass": "Questions_asked_by_Companies.SumofNoZeroDigit",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "GenericsExample",
+            "request": "launch",
+            "mainClass": "OOPS.Generics.GenericsExample",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "EnumsProgram",
+            "request": "launch",
+            "mainClass": "OOPS.Enums.EnumsProgram",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "NewInstance",
+            "request": "launch",
+            "mainClass": "OOPS.ObjectCreation.NewInstance",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "OOPS.Cloning.Main",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandling",
+            "request": "launch",
+            "mainClass": "OOPS.ExceptionHandling.ExceptionHandling",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "FindKey",
+            "request": "launch",
+            "mainClass": "Questions_asked_by_Companies.FindKey",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "MaximumAverageSubArray",
+            "request": "launch",
+            "mainClass": "Questions_asked_by_Companies.MaximumAverageSubArray",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "TopThreeMaxElement",
+            "request": "launch",
+            "mainClass": "Questions_asked_by_Companies.TopThreeMaxElement",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "smallQA",
+            "request": "launch",
+            "mainClass": "Recursion.smallQA",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "SplitWordsBySeparator",
+            "request": "launch",
+            "mainClass": "Questions_asked_by_Companies.SplitWordsBySeparator",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "WordsSeparatedBySeparator",
+            "request": "launch",
+            "mainClass": "Questions_asked_by_Companies.WordsSeparatedBySeparator",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "findPeakElement",
+            "request": "launch",
+            "mainClass": "findPeakElement",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "HashSets",
+            "request": "launch",
+            "mainClass": "OOPS.Collection.HashSets.HashSets",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQueues",
+            "request": "launch",
+            "mainClass": "OOPS.Collection.PriorityQueues",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "removeStar",
+            "request": "launch",
+            "mainClass": "removeStar",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "MagicNumber",
+            "request": "launch",
+            "mainClass": "MagicNumber",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "basicJava",
+            "request": "launch",
+            "mainClass": "basicJava",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Queues",
+            "request": "launch",
+            "mainClass": "Queues",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Queues",
+            "request": "launch",
+            "mainClass": "Java.OOPS.Collection.Queues",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Arraylist",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Java.OOPS.Collection.ArrayLists.Arraylist",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "MyGenerics",
+            "request": "launch",
+            "mainClass": "MyGenerics",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "MissingNumber",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "cycleSort",
+            "request": "launch",
+            "mainClass": "cycleSort",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "SumOfCyclicOrder",
+            "request": "launch",
+            "mainClass": "SumOfCyclicOrder",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "insertionSort",
+            "request": "launch",
+            "mainClass": "insertionSort",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "OOPS.SingletonUsingDoubleChecking.Main",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "OOPS.singleton.Main",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigitsInCyclicOrder",
+            "request": "launch",
+            "mainClass": "SumOfDigitsInCyclicOrder",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "NumAscOrNot",
+            "request": "launch",
+            "mainClass": "NumAscOrNot",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "SteppingNumberOrNot",
+            "request": "launch",
+            "mainClass": "SteppingNumberOrNot",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Patterns",
+            "request": "launch",
+            "mainClass": "Patterns",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "TwoDigitSubractForm",
+            "request": "launch",
+            "mainClass": "TwoDigitSubractForm",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "Pattern",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "NonRepeatedUniqueDigits",
+            "request": "launch",
+            "mainClass": "NonRepeatedUniqueDigits",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "UniqueDigitsCount",
+            "request": "launch",
+            "mainClass": "UniqueDigitsCount",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "IsPrime",
+            "request": "launch",
+            "mainClass": "IsPrime",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "IsPrime",
+            "request": "launch",
+            "mainClass": "Questions_150.IsPrime",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "LastDigitOf",
+            "request": "launch",
+            "mainClass": "LastDigitOf",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "isEvenOdd",
+            "request": "launch",
+            "mainClass": "isEvenOdd",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "isEven",
+            "request": "launch",
+            "mainClass": "isEven",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "IntegerReverse",
+            "request": "launch",
+            "mainClass": "IntegerReverse",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Comparing",
+            "request": "launch",
+            "mainClass": "OOPS.Comparing",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "OOPS.Interface_extends.Car",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "OOPS.Interface.Main",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Animal",
+            "request": "launch",
+            "mainClass": "OOPS.Abstaction.Animal",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "CountSort",
+            "request": "launch",
+            "mainClass": "CountSort",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "MinRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "MinRotatedSortedArray",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "HashMapMethods",
+            "request": "launch",
+            "mainClass": "HashMap.HashMapMethods",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigit",
+            "request": "launch",
+            "mainClass": "SumOfDigit",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Starsum",
+            "request": "launch",
+            "mainClass": "Starsum",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "mergeTwoArray",
+            "request": "launch",
+            "mainClass": "mergeTwoArray",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "DecimalPointSum",
+            "request": "launch",
+            "mainClass": "DecimalPointSum",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "java",
+            "name": "binaryLarge",
+            "request": "launch",
+            "mainClass": "binaryLarge",
+            "projectName": "Problems_Solved_a42ecf72"
+        },
+        {
+            "type": "jdk",
+            "request": "launch",
+            "name": "Launch Java App"
+        }
+    ]
+}
